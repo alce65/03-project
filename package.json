@@ -4,7 +4,8 @@
     "description": "Ejemplo de proyecto FrontEnd",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass --watch scss:css"
     },
     "keywords": [
         "Web",
@@ -15,5 +16,8 @@
     "license": "ISC",
     "dependencies": {
         "bootstrap": "^5.1.3"
+    },
+    "devDependencies": {
+        "sass": "^1.49.0"
     }
 }
